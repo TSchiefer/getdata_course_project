@@ -1,0 +1,14 @@
+the first data.frame that is created is called df_no_average and has 10299 rows (7352 rows from the "train" directory and 
+2947 from the "test" directory, where each of the rows is one observation) and 69 columns. The first column is called
+"Number_Subject" and contains the number corresponding to the person who was taking part in the study for this observation.
+The 2nd column is called "Activity_description" and contains a descriptive name of the activity (WALKING, WALKING_UPSTAIRS...).
+The 3rd column is called "train_or_test" and contains either "Train" or "Test", depending from which directory the observation
+was taken. The 4th through 69th columns contain values for the 66 variables containing either "mean()" or "std()" in their names.
+
+the 2nd data.frame that was created is called df_average and has 11880 rows and 4 columns. The columns are:
+1. "Number_Subject": contains the number corresponding to the person who was taking part in the study for this observation
+2. "Activity": contains a descriptive name of the activity (WALKING, WALKING_UPSTAIRS...)
+3. "Variable": contains a descriptive name of the variable
+4. "Value": contains the average value of the variable for the given person and for the given activity
+
+the rows are all the possible combinations of the three columns in the beginning.
